@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    width: 100%;
+    height: 100%;
+}
+.container{
+    width: 100vmax;
+    height: 51vmax;
+    background: linear-gradient(to bottom, #00416A, #E4E5E6);
+}
+.container h2{
+    text-align: center;
+    color: white;
+    font-weight: 400;
+}
+.innerContainer{
+    width: 30vmax;
+    min-height: 35vmax;
+    background-color: red;
+    transform: translate(35vmax, 5vmax);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
