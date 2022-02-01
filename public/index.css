@@ -11,12 +11,17 @@ html, body{
 .container{
     width: 100vmax;
     height: 51vmax;
-    background: linear-gradient(to bottom, #00416A, #E4E5E6);
+    /* background: linear-gradient(to bottom, #36D1DC, #5B86E5); */
+    background-image: url(./25503.jpg);
+    background-size: cover;
+    background-position: center;
 }
 .container h2{
     text-align: center;
-    color: white;
-    font-weight: 400;
+    color: #0d515c;
+    font-weight: 500;
+    line-height: 40px;
+    font-family: 'Roboto';
 }
 .innerContainer{
     width: 30vmax;
@@ -25,12 +30,12 @@ html, body{
     transform: translate(35vmax, 2vmax);
     display: flex;
     align-items: center;
-    justify-content: center;
     flex-direction: column;
 }
 .searchBar{
-    width: 17vmax;
+    width: 20vmax;
     height: 2.5vmax;
+    transform: translate(41vmax, 7vmax);
     outline: none;
     border: none;
     border-radius: .2vmax;
@@ -40,23 +45,61 @@ html, body{
     margin-bottom: 0.2vmax;
 }
 .searchDrop{
-    width: 17vmax;
+    width: 20vmax;
     min-height: 2.5vmax;
-    max-height: 30vmax;
+    max-height: 25vmax;
+    transform: translate(41vmax, 7vmax);
     overflow-y: auto;
+    overflow-x: hidden;
     border-radius: .2vmax;
     background-color: white;
 }
 .searchDrop p{
-    width: 17vmax;
+    width: 20vmax;
     height: 2.5vmax;
     display: flex;
     align-items: center;
     padding-left: 1vmax;
     font-family: 'Roboto';
-    font-weight: 400;
+    font-weight: 500;
 }
 .searchDrop p:hover{
     cursor: pointer;
-    background-color: whitesmoke;
+    background-color: rgb(218, 218, 218);
 }
+.Icon{
+    transform: translate(39vmax, 7.5vmax);
+    /* background-color: red; */
+}
+.CloseIcon{
+    transform: translate(39vmax, 7.5vmax);
+    cursor: pointer;
+    /* background-color: red; */
+}
+.card{
+    transform: translate(41vmax, 25vmax);
+    width: 23vmax;
+}
+.time{
+    font-size: 13px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
